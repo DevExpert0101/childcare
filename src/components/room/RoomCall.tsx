@@ -23,7 +23,7 @@ interface Participant {
   name: string;
 }
 
-const API_LOCATION = "http://localhost:8000";
+const API_LOCATION = import.meta.env.BACKEND_URL;
 
 function RoomCall({ className = "", onShare }: RoomCallProps) {
   const [meetingJoined, setMeetingJoined] = useState(false);

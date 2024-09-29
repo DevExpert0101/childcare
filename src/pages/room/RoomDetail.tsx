@@ -55,7 +55,7 @@ const tabItems: ITabItem[] = [
   },
 ];
 
-const API_LOCATION = "http://localhost:8000";
+const API_LOCATION = import.meta.env.BACKEND_URL;
 
 const RoomPage: React.FC = () => {
   const location = useLocation();

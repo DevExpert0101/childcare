@@ -7,7 +7,7 @@ import MeetingEnded from "./MeetingEnded";
 // Initializing the SDK
 const meteredMeeting = new window.Metered.Meeting();
 
-const API_LOCATION = "http://localhost:8000";
+const API_LOCATION = import.meta.env.BACKEND_URL;
 
 function MeetingApp() {
   // Will set it to true when the user joins the meeting

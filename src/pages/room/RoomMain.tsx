@@ -153,7 +153,7 @@ const dummyHistoryData: IRoomHistoryItem[] = [
   },
 ];
 
-const API_LOCATION = "http://localhost:8000";
+const API_LOCATION = import.meta.env.BACKEND_URL;
 
 // Main component for displaying the list of rooms and their history
 const RoomListPage = () => {

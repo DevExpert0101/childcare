@@ -15,7 +15,7 @@ interface LocationState {
   avatarName: string;
 }
 
-const API_LOCATION = "http://localhost:8000";
+const API_LOCATION = import.meta.env.BACKEND_URL;
 
 const RoomCreateOnboarding4 = () => {
   const navigate = useNavigate();
