@@ -153,7 +153,8 @@ const dummyHistoryData: IRoomHistoryItem[] = [
   },
 ];
 
-const API_LOCATION = import.meta.env.BACKEND_URL;
+const API_LOCATION = import.meta.env.VITE_BACKEND_URL;
+console.log("API", API_LOCATION)
 
 // Main component for displaying the list of rooms and their history
 const RoomListPage = () => {
