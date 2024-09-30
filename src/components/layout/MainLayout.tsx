@@ -23,7 +23,7 @@ import SettingsSVG from "../../assets/navbar/Settings.svg?react";
 import { io, Socket } from "socket.io-client";
 import { InitResponse } from "../../pages/room/types";
 
-const API_LOCATION = import.meta.env.BACKEND_URL
+const API_LOCATION = import.meta.env.VITE_BACKEND_URL
 // Sidebar items with their corresponding icons and paths
 const sidebarItems = [
   {

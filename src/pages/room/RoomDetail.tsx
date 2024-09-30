@@ -55,7 +55,7 @@ const tabItems: ITabItem[] = [
   },
 ];
 
-const API_LOCATION = import.meta.env.BACKEND_URL;
+const API_LOCATION = import.meta.env.VITE_BACKEND_URL;
 
 const RoomPage: React.FC = () => {
   const location = useLocation();

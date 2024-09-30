@@ -15,7 +15,7 @@ interface LocationState {
   avatarName: string;
 }
 
-const API_LOCATION = import.meta.env.BACKEND_URL;
+const API_LOCATION = import.meta.env.VITE_BACKEND_URL;
 
 const RoomCreateOnboarding4 = () => {
   const navigate = useNavigate();

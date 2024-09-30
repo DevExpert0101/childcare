@@ -38,7 +38,7 @@ const patientList = ["Sara"]; // List of patients
 
 const chatList = ["Lukas", "Anna", "Sara"]; // List of chat participants
 
-const API_LOCATION = import.meta.env.BACKEND_URL;
+const API_LOCATION = import.meta.env.VITE_BACKEND_URL;
 
 interface TrackItem {
   streamId: string;
